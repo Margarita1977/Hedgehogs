@@ -558,11 +558,82 @@
 }
 
 .p_hed {
+    position: relative;
+    max-width: 400px;
+    margin: auto;
+}
 
+.p_hed::after {
+    position: absolute;
+    content: '';
+    background: url(../img/openmoji_hedgehog.svg);
+    height: 41px;
+    width: 41px;
+    top: -10px;
 }
 
 .span {
     text-decoration-line: underline;
 }
 
+.p_action {
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 60px;
+    text-align: center;
+    max-width: 191px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #195557;
+}
+
+/* footer */
+.footer {
+    background: #70908B;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.menu_foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 1058px;
+}
+
+.nav_f {
+    color: #FFFFFF;
+}
+
+.p_foot_tel {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.text_foot {
+    padding-bottom: 30px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 131.4%;
+    color: #FFFFFF;
+}
 
